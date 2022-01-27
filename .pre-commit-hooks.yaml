@@ -1,0 +1,6 @@
+-   id: behave-unused-steps
+    name: Behave Unused Steps
+    description: This hook returns unused steps definitions.
+    entry: behave -f steps.usage --dry-run
+    language: python
+    types: [gherkin]

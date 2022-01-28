@@ -10,7 +10,7 @@ Add the following lines in your **.pre-commit-config.yaml** file.
 
 ```
   - repo: https://github.com/celltrak/behave_hook
-    rev: HEAD
+    rev: v0.0.1
     hooks:
       - id: behave-unused-steps
 ```
